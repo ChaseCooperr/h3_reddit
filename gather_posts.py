@@ -1,7 +1,7 @@
 import json
 import time, csv, os, sys, logging
 from alive_progress import alive_bar
-from client import Reddit_Client
+from reddit_client import Reddit_Client
 from config import config
 from auth import auth
 logging.basicConfig(level=logging.INFO)
